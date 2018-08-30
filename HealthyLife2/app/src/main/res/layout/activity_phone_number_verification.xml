@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.echoinc.healthylife.PhoneNumberVerificationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/otpTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter 6-digit code"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/otp_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter code"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:focusable="true"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/otp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:background="#002db3"
+            android:textColor="#32CD32"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Mobile Number"
+            android:textColor="#002db3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mobileNumber"
+            android:layout_width="271dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_marginTop="5dp"
+            android:background="#002db3"
+            android:textColor="#32CD32" />
+
+    </LinearLayout>
+
+</ScrollView>

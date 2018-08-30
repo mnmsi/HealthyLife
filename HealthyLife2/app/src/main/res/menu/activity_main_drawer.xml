@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donor_feed"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Donor Feed" />
+        <item
+            android:id="@+id/nav_donation_date_update"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Update Donation Date" />
+        <item
+            android:id="@+id/nav_nearby_hospital"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Find Nearby Hospital" />
+        <item
+            android:id="@+id/nav_nearby_resturent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Find Nearby Resturent" />
+        <item
+            android:id="@+id/nav_nearby_bank"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Find Nearby Bank" />
+        <item
+            android:id="@+id/nav_nearby_atm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Find Nearby ATM" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
